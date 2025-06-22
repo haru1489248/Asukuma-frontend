@@ -16,4 +16,4 @@ export default function AuthButtons() {
   }
 
   return <LoginButton />
-} 
+}
