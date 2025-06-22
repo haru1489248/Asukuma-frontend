@@ -6,8 +6,8 @@ import Providers from "./components/Providers";
 import Header from "./components/Header";
 
 export const metadata: Metadata = {
-  title: "Askuma",
-  description: "Askuma",
+  title: "Askma",
+  description: "Askma",
 };
 
 export default async function RootLayout({

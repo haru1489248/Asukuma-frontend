@@ -1,3 +1,5 @@
+import React from "react";
+
 interface AskmaLogoProps {
     size?: number
     className?: string
