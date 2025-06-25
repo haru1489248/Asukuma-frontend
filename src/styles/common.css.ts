@@ -27,6 +27,6 @@ export const vars = createGlobalTheme(':root', {
     bold: '700',
     extraBold: '800',
     black: '900',
-  }
+  },
   // 必要に応じてグローバル変数を追加
 });

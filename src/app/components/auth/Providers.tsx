@@ -5,14 +5,10 @@ import { SessionProvider } from 'next-auth/react';
 import { type ReactNode } from 'react';
 
 type ProvidersProps = {
-  children: ReactNode
-  session: Session | null
-}
+  children: ReactNode;
+  session: Session | null;
+};
 
 export default function Providers({ children, session }: ProvidersProps) {
-  return (
-    <SessionProvider session={session}>
-      {children}
-    </SessionProvider>
-  );
+  return <SessionProvider session={session}>{children}</SessionProvider>;
 }
